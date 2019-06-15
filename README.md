@@ -14,8 +14,8 @@ Finally, ioBoard has a small web server stored on an SD card, in order to reflec
 <ul>
 <li>Atmega2560 16MHz µC</li>
 <li>programmable with Arduino IDE (with USB interface)</li>
-<li>Ethernet 10M/100M RJ45 internet interface with connection and activity LED </li>
-<li>8 Relay outputs 230VAC 10A or 30VDC 10A – Form-C relays, screw terminal and SMD Status-LED for each (opto-isolated from µC)</li>
+<li>Ethernet 10M/100M RJ45 internet interface</li>
+<li>8 Relay outputs 230VAC/30VDC 10A – Form-C relays, screw terminal and SMD Status-LED for each (opto-isolated from µC)</li>
 <li>8 opto-isolated digital inputs with SMD Status-LEDs (internal pull-up, HIGH level by default. Ground the input to make it LOW)</li> 
 <li>2 10 bits analog inputs 0-3.3VDC</li>
 <li>2 opto-isolated digital input pulse counters (internal pull-up by default. Ground the input to increment it. Input low-pass filtered at 10Hz max.)</li> 
