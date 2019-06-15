@@ -46,7 +46,7 @@ Below are the Payloads/commands to publish on the "ioBoard/API" topic in Json fo
 <li>{"SetRelay":[4,1]}      -> set state of a defined relay. In this example, relay #4 is set to 1</li> 
 <li>{"SetRelays":15}        -> set all relays states at once by sending a Byte. Each individual bit reflects the status of one relay. In this example, the first four relays are switched ON and the last four are switched OFF (15 in decimal form corresponds to 00001111 in binary form)</li> 
 <li>{"SetC0":0}        		-> set initial value of Counter #0</li>
-<li>{"SetC1":0}        		-> set initial value of Counter #1</li>
+<li>{"SetC1":2140}        	-> set initial value of Counter #1</li>
 <li>{"SetDate":[1,1,1,18,13,32,0]}      -> set date/time of RTC module in the following format: (Day of the month, Day of the week, Month, Year, Hour, Minute, Seconds), in this example: Monday 1st January 2018 - 13h32mn00secs</li>
 </ul>
 <br />
@@ -57,7 +57,7 @@ The status of the I/Os is published on the "ioBoard/IOs" topic in the following 
 <li>{"DIns":127}       		-> A Byte representing all the digital input states. Each individual bit reflects the status of one input. In this example, the first input state is FALSE and the last seven are TRUE (127 in decimal form corresponds to 01111111 in binary form)</li>
 <li>{"C0":1203}       		-> Value of Counter0</li>
 <li>{"C1":0}       			-> Value of Counter1</li>
-<li>{"AI":[1203,0]}       	-> Values of the Analog Inputs</li>
+<li>{"AI":[1203,0]}       	-> Values of the Analog Inputs. In this example, AI0 is 1203 and AI1 is 0</li>
 <li>{"TI":[125643,.......]}       			-> TeleInfo data</li>
 </ul>
 <br />
