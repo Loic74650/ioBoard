@@ -62,7 +62,7 @@ The status of the I/Os is published on the "ioBoard/IOs" topic in the following 
 </ul>
 <br />
 
-The above Json commands representing the state of the I/Os are updated as soon as a Digital I/O or changes state or every 30 secs for the Analog Inputs.
+The above Json commands representing the state of the I/Os are updated as soon as a Digital I/O changes state or every 30 secs for the Analog Inputs.
 </p><br />
 
 NOTES: 
