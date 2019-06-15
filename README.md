@@ -58,7 +58,7 @@ The status of the I/Os is published on the "ioBoard/IOs" topic in the following 
 <li>{"C0":1203}       		-> Value of Counter0</li>
 <li>{"C1":0}       			-> Value of Counter1</li>
 <li>{"AI":[1203,0]}       	-> Values of the Analog Inputs. In this example, AI0 is 1203 and AI1 is 0</li>
-<li>{"TI":[125643,.......]}       			-> TeleInfo data</li>
+<li>{"TI":[125643,..]}      -> TeleInfo data. The following data is returned: [ADCO,OPTARIF,ISOUSC,BASE,IINST,ADPS,IMAX,PTEC]. Refer to this reference for more info: https://www.enedis.fr/sites/default/files/Enedis-NOI-CPT_02E.pdf</li>
 </ul>
 <br />
 
