@@ -16,12 +16,12 @@ Finally, ioBoard has a small web server stored on an SD card, in order to reflec
 <li>programmable with Arduino IDE (with USB interface)</li>
 <li>Ethernet 10M/100M RJ45 internet interface with connection and activity LED </li>
 <li>8 Relay outputs 230VAC 10A or 30VDC 10A – Form-C relays, screw terminal and SMD Status-LED for each (opto-isolated from µC)</li>
-<li>8 opto-isolated digital inputs (with SMD Status-LEDs)</li> 
+<li>8 opto-isolated digital inputs with SMD Status-LEDs (internal pull-up, HIGH level by default. Ground the input to make it LOW)</li> 
 <li>2 10 bits analog inputs 0-3.3VDC</li>
-<li>2 opto-isolated digital pulse counters</li> 
+<li>2 opto-isolated digital input pulse counters (internal pull-up by default. Ground the input to increment it)</li> 
 <li>1 opto-isolated Télé-Info input</li>
 <li>Pin header connected to the remaining free pins of the µC</li> 
-<li>RTC module (DS1307) for time management</li> 
+<li>RTC module (DS1307) for time management with on-board Lithium back-up battery</li> 
 <li>Micro SD card slot (Web server) </li>
 <li>12volts DC power supply or PoE (requires to solder on a PoE module)</li>
 <li>DIN rail format (PCB Size 143mm x 72mm)</li>
