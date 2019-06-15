@@ -1,8 +1,8 @@
 <h2>ioBoard</h2>
-<h2>I/O board with Ethernet conectivity for home automation applications</h2>
+<h2>I/O board with Ethernet connectivity for home automation applications</h2>
 
 <h4>Brief description</h4>
-<p>Basically ioBoard is a mix between an Arduino Mega, the Ethernet shield and the relay shield + some small additional things (RTC, opto-isolation of digital inputs, analog inputs/outputs, Teleinfo input…).<br />
+<p>Simply put, ioBoard is a mix between an Arduino Mega board, the Ethernet shield and the relay shield + some small additional features (RTC, opto-isolation of digital inputs/outputs, two analog inputs, one Teleinfo input…).<br />
 It supports the MQTT protocol and has a set of API functions so that it is easy to control it over the Ethernet/Internet for home automation applications for instance.<br />
 IoBoard can be programmed to perform tasks at regular intervals such as water the garden or switch on a pump. <br />
 IoBoard also has input pulse counters, typically used to track the consumption of a gas or oil heater, water or even electrical consumption.<br />
