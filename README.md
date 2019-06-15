@@ -18,7 +18,7 @@ Finally, ioBoard has a small web server stored on an SD card, in order to reflec
 <li>8 Relay outputs 230VAC 10A or 30VDC 10A – Form-C relays, screw terminal and SMD Status-LED for each (opto-isolated from µC)</li>
 <li>8 opto-isolated digital inputs with SMD Status-LEDs (internal pull-up, HIGH level by default. Ground the input to make it LOW)</li> 
 <li>2 10 bits analog inputs 0-3.3VDC</li>
-<li>2 opto-isolated digital input pulse counters (internal pull-up by default. Ground the input to increment it)</li> 
+<li>2 opto-isolated digital input pulse counters (internal pull-up by default. Ground the input to increment it. Input low-pass filtered at 10Hz max.)</li> 
 <li>1 opto-isolated Télé-Info input</li>
 <li>Pin header connected to the remaining free pins of the µC</li> 
 <li>RTC module (DS1307) for time management with on-board Lithium back-up battery</li> 
@@ -42,9 +42,9 @@ Before compiling the code and flashing it onto the µC, make sure you have chang
 <p>
 Below are the Payloads/commands to publish on the "ioBoard/API" topic in Json format in order to launch actions on the ioBoard:<br />
 <ul>
-<li>{"SetRelayMode":[3,1,500]]} -> set the operating mode for a relay. 0 is standard operating mode (ON/OFF) and 1 is PULSE mode. In pulse mode, the relay will automatically switch back to OFF state after a defined time in millisecs. In this example, relay #3 is set to PULSE mode with a switch back time of 500ms</li> 
+<li>{"SetRelayMode":[3,1,500]} -> set the operating mode for a relay. 0 is standard operating mode (ON/OFF) and 1 is PULSE mode. In pulse mode, after a relay has been switched ON, it will automatically switch back to OFF state after a defined time in millisecs. In this example, relay #3 is set to PULSE mode with a switch back time of 500ms</li> 
 <li>{"SetRelay":[4,1]}      -> set state of a defined relay. In this example, relay #4 is set to 1</li> 
-<li>{"SetRelays":15}        -> set all relays states at once by sending a Byte. Each individual bit reflects the status of one relay. In this example, the first four relays are switched ON and the last four are switched OFF (15 in decimal form corresponds to 000111 in binary form)</li> 
+<li>{"SetRelays":15}        -> set all relays states at once by sending a Byte. Each individual bit reflects the status of one relay. In this example, the first four relays are switched ON and the last four are switched OFF (15 in decimal form corresponds to 00001111 in binary form)</li> 
 <li>{"SetC0":0}        		-> set initial value of Counter #0</li>
 <li>{"SetC1":0}        		-> set initial value of Counter #1</li>
 <li>{"SetDate":[1,1,1,18,13,32,0]}      -> set date/time of RTC module in the following format: (Day of the month, Day of the week, Month, Year, Hour, Minute, Seconds), in this example: Monday 1st January 2018 - 13h32mn00secs</li>
@@ -54,7 +54,7 @@ Below are the Payloads/commands to publish on the "ioBoard/API" topic in Json fo
 The status of the I/Os is published on the "ioBoard/IOs" topic in the following Json format:<br />
 <ul>
 <li>{"Relays":15}       	-> A Byte representing all the relays states. Each individual bit reflects the status of one relay. In this example, the first four relays are ON and the last four are OFF (15 in decimal form corresponds to 00001111 in binary form)</li>
-<li>{"DIns":127}       		-> A Byte representing all the digital input states. Each individual bit reflects the status of one input. In this example, the first seven inputs are TRUE and the last one is FALSE (127 in decimal form corresponds to 01111111 in binary form)</li>
+<li>{"DIns":127}       		-> A Byte representing all the digital input states. Each individual bit reflects the status of one input. In this example, the first input state is FALSE and the last seven are TRUE (127 in decimal form corresponds to 01111111 in binary form)</li>
 <li>{"C0":1203}       		-> Value of Counter0</li>
 <li>{"C1":0}       			-> Value of Counter1</li>
 <li>{"AI":[1203,0]}       	-> Values of the Analog Inputs</li>
