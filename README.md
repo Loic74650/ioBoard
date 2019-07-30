@@ -4,9 +4,9 @@
 <h4>Brief description</h4>
 <p>Simply put, ioBoard is a mix between an Arduino Mega board, the Ethernet shield and the relay shield + some small additional features (RTC, opto-isolation of digital inputs/outputs, two analog inputs, one Teleinfo input…).<br />
 It supports the MQTT protocol and has a set of API functions so that it is easy to control it over the Ethernet for home automation applications for instance.<br />
-IoBoard can be programmed to perform tasks at regular intervals such as water the garden or switch on a pump autonomously. <br />
-IoBoard also has input pulse counters, typically used to track the consumption of a gas or oil heater, water or even electrical consumption.<br />
-IoBoard also has a TeleInfo input, which is a French dedicated energy meter interface to the main electric meter of the house.<br />
+ioBoard can be programmed to perform tasks at regular intervals such as water the garden or switch on a pump autonomously. <br />
+ioBoard also has input pulse counters, typically used to track the consumption of a gas or oil heater, water or even electrical consumption.<br />
+ioBoard also has a TeleInfo input, which is a French dedicated energy meter interface to the main electric meter of the house.<br />
 Finally, ioBoard has a small web server stored on an SD card, in order to reflect the status of the board I/Os.</p> <br />
 
 <h4>Main specs:</h4>
@@ -15,15 +15,13 @@ Finally, ioBoard has a small web server stored on an SD card, in order to reflec
 <li>Atmega2560 16MHz µC</li>
 <li>programmable with Arduino IDE (with USB interface)</li>
 <li>Ethernet 10M/100M RJ45 internet interface</li>
-<li>8 Relay outputs 230VAC/30VDC 10A – Form-C relays, screw terminal and SMD Status-LED for each (opto-isolated from µC)</li>
-<li>8 opto-isolated digital inputs with SMD Status-LEDs (internal pull-up, HIGH level by default. Ground the input to make it LOW)</li> 
-<li>2 10 bits analog inputs 0-3.3VDC</li>
-<li>2 opto-isolated digital input pulse counters (internal pull-up by default. Ground the input to increment it. Input low-pass filtered at 10Hz max.)</li> 
-<li>1 opto-isolated Télé-Info input</li>
-<li>Pin header connected to the remaining free pins of the µC</li> 
+<li>x8 Relay outputs 230VAC/30VDC 10A – Form-C relays, screw terminal and SMD Status-LED for each (opto-isolated from µC)</li>
+<li>x8 opto-isolated digital inputs with SMD Status-LEDs (internal pull-up, HIGH level by default. Ground the input to make it LOW)</li> 
+<li>x2 10 bits analog inputs 0-3.3VDC</li>
+<li>x2 opto-isolated digital input pulse counters (internal pull-up by default. Ground the input to increment it. Input low-pass filtered at 10Hz max.)</li> 
+<li>x1 opto-isolated Télé-Info input</li> 
 <li>RTC module (DS1307) for time management with on-board Lithium back-up battery</li> 
 <li>Micro SD card slot (Web server) </li>
-<li>12volts DC power supply or PoE (requires to solder on a PoE module)</li>
 <li>DIN rail format (PCB Size 143mm x 72mm)</li>
 </ul>
 </p><br />
