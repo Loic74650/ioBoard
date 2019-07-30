@@ -1,7 +1,7 @@
 <h2>ioBoard</h2>
 <h2>I/O board with Ethernet connectivity for home automation applications</h2>
 <br />
-<p align="center"> <img src="/Hardware/dessus.jpg" width="600" title="Overview"> </p> <br /><br />
+<p align="center"> <img src="/Hardware/dessus2.jpg" width="600" title="Overview"> </p> <br /><br />
 <br />
 <h4>Brief description</h4>
 <p>Simply put, ioBoard is a mix between an Arduino Mega board, the Ethernet shield and the relay shield + some small additional features (RTC, opto-isolation of digital inputs/outputs, two analog inputs, one Teleinfo input…).<br />
