@@ -65,8 +65,3 @@ The status of the I/Os is published on the "ioBoard/IOs" topic in the following 
 The above Json commands representing the state of the I/Os are updated as soon as a Digital I/O changes state or every 30 secs for the Analog Inputs.
 </p><br />
 
-NOTES: 
-
-- afin d'éviter les surcharges de messages MQTT, il faut plutôt updater toutes les 2 secs par ex.
-- programmer des tasks
-- Catégories TeleInfo
