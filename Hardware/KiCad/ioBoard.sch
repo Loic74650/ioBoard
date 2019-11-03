@@ -6,9 +6,9 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 4
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2019-10-24"
+Rev "V1.1"
+Comp "Crozitech"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -87,7 +87,7 @@ U 1 1 5CFE63F2
 P 6300 2660
 F 0 "Y1" V 6300 2780 50  0000 L CNN
 F 1 "16MHz" V 6500 2560 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 6300 2660 50  0001 C CNN
+F 2 "pbo_footprint:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 6300 2660 50  0001 C CNN
 F 3 "~" H 6300 2660 50  0001 C CNN
 	1    6300 2660
 	0    1    1    0   
@@ -349,7 +349,7 @@ U 1 1 5D00B928
 P 10180 2340
 F 0 "J9" H 10230 2657 50  0000 C CNN
 F 1 "ICSP" H 10230 2566 50  0000 C CNN
-F 2 "my_footprint:2178710-6_Micro-MaTch_TE_CONNECTIVITY" H 10180 2340 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10180 2340 50  0001 C CNN
 F 3 "~" H 10180 2340 50  0001 C CNN
 	1    10180 2340
 	1    0    0    -1  
@@ -373,21 +373,15 @@ F 3 "" H 10480 2240 50  0001 C CNN
 	1    10480 2240
 	1    0    0    -1  
 $EndComp
-Text Label 9690 2240 0    50   ~ 0
-MISO
-Text Label 9690 2340 0    50   ~ 0
-SCK
 Text Label 9690 2440 0    50   ~ 0
 RST
-Text Label 10560 2340 0    50   ~ 0
-MOSI
 $Comp
 L Switch:SW_DPST SW1
 U 1 1 5D015613
 P 5370 1690
 F 0 "SW1" V 5324 1878 50  0000 L CNN
 F 1 "SW_DPST" V 5415 1878 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 5370 1690 50  0001 C CNN
+F 2 "pbo_footprint:SW_SPST_B3S-1000" H 5370 1690 50  0001 C CNN
 F 3 "" H 5370 1690 50  0001 C CNN
 	1    5370 1690
 	0    1    1    0   
@@ -736,7 +730,7 @@ F 1 "74AHC1G125" H 10740 3610 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 10740 3760 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 10740 3760 50  0001 C CNN
 	1    10740 3760
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR?
@@ -1481,7 +1475,7 @@ AR Path="/5E22A2CE" Ref="Y3"  Part="1"
 AR Path="/5D7401F8/5E22A2CE" Ref="Y?"  Part="1" 
 F 0 "Y3" V 10300 7440 50  0000 L CNN
 F 1 "32.768KHz" V 10650 7370 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 10430 7580 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 10430 7580 50  0001 C CNN
 F 3 "~" H 10430 7580 50  0001 C CNN
 	1    10430 7580
 	0    1    1    0   
@@ -1582,7 +1576,7 @@ AR Path="/5D7401F8/5E22A301" Ref="BT?"  Part="1"
 AR Path="/5E22A301" Ref="BT1"  Part="1" 
 F 0 "BT1" H 12818 7526 50  0000 L CNN
 F 1 "CR2025" H 12818 7435 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 12700 7490 50  0001 C CNN
+F 2 "pbo_footprint:BatteryHolder_Keystone_103_1x20mm" V 12700 7490 50  0001 C CNN
 F 3 "~" V 12700 7490 50  0001 C CNN
 	1    12700 7430
 	1    0    0    -1  
@@ -1597,7 +1591,7 @@ U 1 1 5E2F770F
 P 880 8990
 F 0 "J33" H 935 9457 50  0000 C CNN
 F 1 "USB_B_Micro" H 935 9366 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 1030 8940 50  0001 C CNN
+F 2 "pbo_footprint:USB_Micro-B_Amphenol_110118192-0001LF_Horizontal" H 1030 8940 50  0001 C CNN
 F 3 "~" H 1030 8940 50  0001 C CNN
 	1    880  8990
 	1    0    0    -1  
@@ -1793,7 +1787,7 @@ F 3 "~" H 7430 7860 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mes_composants:AP1509 U21
+L pbo:AP1509 U21
 U 1 1 5D66860B
 P 2990 2440
 F 0 "U21" H 2570 2710 50  0000 L CNN
@@ -1825,54 +1819,10 @@ Wire Wire Line
 Connection ~ 3090 2840
 Wire Wire Line
 	3090 2840 2990 2840
-$Comp
-L Device:R R58
-U 1 1 5D6A9EA5
-P 3550 1950
-F 0 "R58" V 3630 1950 50  0000 L CNN
-F 1 "3K" V 3490 1740 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 1950 50  0001 C CNN
-F 3 "~" H 3550 1950 50  0001 C CNN
-	1    3550 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R57
-U 1 1 5D70D8D4
-P 2640 1950
-F 0 "R57" V 2720 1960 50  0000 L CNN
-F 1 "1K" V 2580 1740 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2570 1950 50  0001 C CNN
-F 3 "~" H 2640 1950 50  0001 C CNN
-	1    2640 1950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2790 1950 2990 1950
 Wire Wire Line
 	2990 1950 2990 2140
 Wire Wire Line
-	2990 1950 3400 1950
-Connection ~ 2990 1950
-Wire Wire Line
-	3700 1950 3870 1950
-Wire Wire Line
-	3870 1950 3870 2490
-Wire Wire Line
 	3870 2490 3540 2490
-$Comp
-L power:Earth #PWR0119
-U 1 1 5D7D8786
-P 2390 1950
-F 0 "#PWR0119" H 2390 1700 50  0001 C CNN
-F 1 "Earth" H 2390 1800 50  0001 C CNN
-F 2 "" H 2390 1950 50  0001 C CNN
-F 3 "~" H 2390 1950 50  0001 C CNN
-	1    2390 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2490 1950 2390 1950
 $Comp
 L Device:D_Schottky D29
 U 1 1 5D81E301
@@ -1896,7 +1846,7 @@ U 1 1 5D8CDB79
 P 4240 2490
 F 0 "L1" V 4293 2536 50  0000 L CNN
 F 1 "47µH" V 4300 2270 50  0000 L CNN
-F 2 "my_footprint:L_Bourns-SRU8043" H 4240 2490 50  0001 C CNN
+F 2 "pbo_footprint:L_Bourns-SRU8043" H 4240 2490 50  0001 C CNN
 F 3 "~" H 4240 2490 50  0001 C CNN
 	1    4240 2490
 	0    -1   -1   0   
@@ -1908,15 +1858,15 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 5D95D8D9
-P 4530 2490
+P 4900 2490
 AR Path="/5D0C8097/5D95D8D9" Ref="#PWR?"  Part="1" 
 AR Path="/5D95D8D9" Ref="#PWR0144"  Part="1" 
 AR Path="/5DB99B84/5D95D8D9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0144" H 4530 2340 50  0001 C CNN
-F 1 "+5V" H 4545 2663 50  0000 C CNN
-F 2 "" H 4530 2490 50  0001 C CNN
-F 3 "" H 4530 2490 50  0001 C CNN
-	1    4530 2490
+F 0 "#PWR0144" H 4900 2340 50  0001 C CNN
+F 1 "+5V" H 4915 2663 50  0000 C CNN
+F 2 "" H 4900 2490 50  0001 C CNN
+F 3 "" H 4900 2490 50  0001 C CNN
+	1    4900 2490
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1981,7 +1931,7 @@ U 1 1 5D023F85
 P 4960 1290
 F 0 "D1" V 5010 1615 50  0000 R CNN
 F 1 "RSFBL-R3" V 4880 1810 50  0000 R CNN
-F 2 "my_footprint:D_Sub_SMA" H 4960 1290 50  0001 C CNN
+F 2 "pbo_footprint:D_Sub_SMA" H 4960 1290 50  0001 C CNN
 F 3 "~" H 4960 1290 50  0001 C CNN
 	1    4960 1290
 	0    -1   -1   0   
@@ -2036,7 +1986,7 @@ AR Path="/5CFA6BDE/5DD1095E" Ref="J?"  Part="1"
 AR Path="/5DD1095E" Ref="J34"  Part="1" 
 F 0 "J34" H 940 2650 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 670 2270 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 930 2550 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 930 2550 50  0001 C CNN
 F 3 "~" H 930 2550 50  0001 C CNN
 	1    930  2550
 	-1   0    0    -1  
@@ -2166,48 +2116,49 @@ Text Label 8255 5360 0    50   ~ 0
 LED_TELEINFO
 Text Label 1580 4765 0    50   ~ 0
 LED_TELEINFO
-NoConn ~ 10480 2440
+Wire Wire Line
+	4530 1950 4530 2490
+Connection ~ 4900 2490
 $Comp
-L Connector_Generic:Conn_01x04 J1
-U 1 1 5D26CF39
-P 3660 5165
-F 0 "J1" H 3665 5395 50  0000 C CNN
-F 1 "Conn_01x04" H 3490 4825 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3660 5165 50  0001 C CNN
-F 3 "~" H 3660 5165 50  0001 C CNN
-	1    3660 5165
+L power:Earth #PWR?
+U 1 1 5D5E1B36
+P 10720 5470
+AR Path="/5D0C8097/5D5E1B36" Ref="#PWR?"  Part="1" 
+AR Path="/5D5E1B36" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 10720 5220 50  0001 C CNN
+F 1 "Earth" H 10720 5320 50  0001 C CNN
+F 2 "" H 10720 5470 50  0001 C CNN
+F 3 "~" H 10720 5470 50  0001 C CNN
+	1    10720 5470
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0121
-U 1 1 5D26D539
-P 3860 5365
-F 0 "#PWR0121" H 3860 5115 50  0001 C CNN
-F 1 "Earth" H 3860 5215 50  0001 C CNN
-F 2 "" H 3860 5365 50  0001 C CNN
-F 3 "~" H 3860 5365 50  0001 C CNN
-	1    3860 5365
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0120
-U 1 1 5D299723
-P 3860 5065
-F 0 "#PWR0120" H 3860 4915 50  0001 C CNN
-F 1 "+5V" H 3875 5238 50  0000 C CNN
-F 2 "" H 3860 5065 50  0001 C CNN
-F 3 "" H 3860 5065 50  0001 C CNN
-	1    3860 5065
-	1    0    0    -1  
+L power:Earth #PWR?
+U 1 1 5D5FDA8A
+P 10480 2440
+AR Path="/5D0C8097/5D5FDA8A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5FDA8A" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 10480 2190 50  0001 C CNN
+F 1 "Earth" H 10480 2290 50  0001 C CNN
+F 2 "" H 10480 2440 50  0001 C CNN
+F 3 "~" H 10480 2440 50  0001 C CNN
+	1    10480 2440
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3860 5265 4115 5265
-Wire Wire Line
-	3860 5165 4115 5165
-Text Label 3875 5165 0    50   ~ 0
-SCL
-Text Label 3875 5265 0    50   ~ 0
-SDA
+	2990 1950 4530 1950
+Text Label 9015 3360 0    50   ~ 0
+ICSP_SCK
+Text Label 9020 3460 0    50   ~ 0
+ICSP_MOSI
+Text Label 9020 3560 0    50   ~ 0
+ICSP_MISO
+Text Label 9630 2340 0    50   ~ 0
+ICSP_SCK
+Text Label 10495 2340 0    50   ~ 0
+ICSP_MOSI
+Text Label 9630 2240 0    50   ~ 0
+ICSP_MISO
 Wire Bus Line
 	1895 3360 1895 3990
 Wire Bus Line

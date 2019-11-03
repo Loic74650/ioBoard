@@ -1,4 +1,4 @@
-<h2>ioBoard</h2>
+<h2>ioBoard v1.2</h2>
 <h2>I/O board with Ethernet connectivity for home automation applications</h2>
 <br />
 <p align="center"> <img src="/Hardware/3D/dessus2.jpg" width="600" title="Overview"> </p> <br /><br />

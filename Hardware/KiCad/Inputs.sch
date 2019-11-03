@@ -6,9 +6,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2019-10-24"
+Rev "V1.1"
+Comp "Crozitech"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -107,7 +107,7 @@ U 1 1 5CFAC4A4
 P 540 1000
 F 0 "J20" H 550 1100 50  0000 C CNN
 F 1 "MPT 0.5/2-2.54" H 265 785 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 540 1000 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 540 1000 50  0001 C CNN
 F 3 "~" H 540 1000 50  0001 C CNN
 	1    540  1000
 	-1   0    0    -1  
@@ -221,7 +221,7 @@ U 1 1 5D03FB44
 P 540 2330
 F 0 "J21" H 550 2430 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 295 2110 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 540 2330 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 540 2330 50  0001 C CNN
 F 3 "~" H 540 2330 50  0001 C CNN
 	1    540  2330
 	-1   0    0    -1  
@@ -335,7 +335,7 @@ U 1 1 5D03FE76
 P 540 3630
 F 0 "J22" H 550 3730 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 265 3420 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 540 3630 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 540 3630 50  0001 C CNN
 F 3 "~" H 540 3630 50  0001 C CNN
 	1    540  3630
 	-1   0    0    -1  
@@ -436,7 +436,7 @@ U 1 1 5D03FEB6
 P 540 4960
 F 0 "J23" H 550 5060 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 275 4745 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 540 4960 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 540 4960 50  0001 C CNN
 F 3 "~" H 540 4960 50  0001 C CNN
 	1    540  4960
 	-1   0    0    -1  
@@ -549,7 +549,7 @@ U 1 1 5D0401B2
 P 550 6640
 F 0 "J24" H 560 6740 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 295 6425 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 550 6640 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 550 6640 50  0001 C CNN
 F 3 "~" H 550 6640 50  0001 C CNN
 	1    550  6640
 	-1   0    0    -1  
@@ -663,7 +663,7 @@ U 1 1 5D041370
 P 3710 1030
 F 0 "J27" H 3720 1130 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 3455 815 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3710 1030 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3710 1030 50  0001 C CNN
 F 3 "~" H 3710 1030 50  0001 C CNN
 	1    3710 1030
 	-1   0    0    -1  
@@ -777,7 +777,7 @@ U 1 1 5D0413B0
 P 3710 2360
 F 0 "J28" H 3720 2460 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 3470 2115 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3710 2360 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3710 2360 50  0001 C CNN
 F 3 "~" H 3710 2360 50  0001 C CNN
 	1    3710 2360
 	-1   0    0    -1  
@@ -891,7 +891,7 @@ U 1 1 5D0413F0
 P 3710 3660
 F 0 "J29" H 3720 3760 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 3465 3430 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3710 3660 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3710 3660 50  0001 C CNN
 F 3 "~" H 3710 3660 50  0001 C CNN
 	1    3710 3660
 	-1   0    0    -1  
@@ -984,7 +984,7 @@ U 1 1 5D04C46E
 P 3600 5160
 F 0 "J25" H 3610 5260 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 3355 4910 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3600 5160 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3600 5160 50  0001 C CNN
 F 3 "~" H 3600 5160 50  0001 C CNN
 	1    3600 5160
 	-1   0    0    -1  
@@ -1052,7 +1052,7 @@ U 1 1 5D050E86
 P 3600 6690
 F 0 "J26" H 3610 6790 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 3355 6440 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3600 6690 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 3600 6690 50  0001 C CNN
 F 3 "~" H 3600 6690 50  0001 C CNN
 	1    3600 6690
 	-1   0    0    -1  
@@ -1134,7 +1134,7 @@ U 1 1 5D059A5A
 P 7260 1130
 F 0 "J30" H 7270 1230 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 6990 890 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7260 1130 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7260 1130 50  0001 C CNN
 F 3 "~" H 7260 1130 50  0001 C CNN
 	1    7260 1130
 	-1   0    0    -1  
@@ -1250,7 +1250,7 @@ U 1 1 5D0632DA
 P 7280 2420
 F 0 "J32" H 7290 2520 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 7050 2175 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7280 2420 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7280 2420 50  0001 C CNN
 F 3 "~" H 7280 2420 50  0001 C CNN
 	1    7280 2420
 	-1   0    0    -1  
@@ -1311,17 +1311,6 @@ Connection ~ 9480 2720
 Wire Wire Line
 	9480 2720 9390 2720
 $Comp
-L Isolator:SFH617A-1 U16
-U 1 1 5D066FB1
-P 8450 4230
-F 0 "U16" H 8450 4555 50  0000 C CNN
-F 1 "SFH617A-1" H 8450 4464 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 8250 4030 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 8450 4230 50  0001 L CNN
-	1    8450 4230
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0105
 U 1 1 5D066FB9
 P 8750 4130
@@ -1362,7 +1351,7 @@ U 1 1 5D066FCD
 P 7090 4230
 F 0 "J31" H 7100 4330 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 6825 3985 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7090 4230 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7090 4230 50  0001 C CNN
 F 3 "~" H 7090 4230 50  0001 C CNN
 	1    7090 4230
 	-1   0    0    -1  
@@ -1506,7 +1495,6 @@ F 3 "" H 6520 4990 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8750 4330 8920 4330
-Connection ~ 8750 4330
 Wire Wire Line
 	9220 4130 9930 4130
 $Comp
@@ -1540,7 +1528,7 @@ P 9240 5555
 AR Path="/5CF96D09/5D52A784" Ref="R?"  Part="1" 
 AR Path="/5CFA6BDE/5D52A784" Ref="R61"  Part="1" 
 F 0 "R61" H 9300 5555 50  0000 L CNN
-F 1 "10K" H 9040 5555 50  0000 L CNN
+F 1 "1K5" H 9040 5555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9170 5555 50  0001 C CNN
 F 3 "~" H 9240 5555 50  0001 C CNN
 	1    9240 5555
@@ -1550,4 +1538,52 @@ Text HLabel 9950 5705 2    50   Input ~ 0
 TELEINFO_LED
 Wire Wire Line
 	9240 5705 9950 5705
+$Comp
+L Isolator:SFH6206-1T U16
+U 1 1 5DAF27BD
+P 8450 4230
+F 0 "U16" H 8450 4597 50  0000 C CNN
+F 1 "SFH620A" H 8450 4506 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 8450 3830 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 8450 4230 50  0001 C CNN
+	1    8450 4230
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 4330
+$Comp
+L Device:C C?
+U 1 1 5DB02791
+P 7085 5285
+AR Path="/5D0C8097/5DB02791" Ref="C?"  Part="1" 
+AR Path="/5DB02791" Ref="C?"  Part="1" 
+AR Path="/5CFA6BDE/5DB02791" Ref="C36"  Part="1" 
+F 0 "C36" H 7200 5331 50  0000 L CNN
+F 1 "100nF" H 7200 5240 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7123 5135 50  0001 C CNN
+F 3 "~" H 7085 5285 50  0001 C CNN
+	1    7085 5285
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0129
+U 1 1 5DB035D3
+P 7085 5135
+F 0 "#PWR0129" H 7085 4985 50  0001 C CNN
+F 1 "+5V" H 7100 5308 50  0000 C CNN
+F 2 "" H 7085 5135 50  0001 C CNN
+F 3 "" H 7085 5135 50  0001 C CNN
+	1    7085 5135
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0130
+U 1 1 5DB0449B
+P 7085 5435
+F 0 "#PWR0130" H 7085 5185 50  0001 C CNN
+F 1 "Earth" H 7085 5285 50  0001 C CNN
+F 2 "" H 7085 5435 50  0001 C CNN
+F 3 "~" H 7085 5435 50  0001 C CNN
+	1    7085 5435
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

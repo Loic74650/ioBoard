@@ -1,6 +1,6 @@
-update=07/07/2019 23:31:41
+update=21/10/2019 21:39:53
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=D:/Auto-entrepreneur/Clients/Crozitech/repository/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

@@ -6,9 +6,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2019-10-24"
+Rev "V1.1"
+Comp "Crozitech"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -100,7 +100,7 @@ U 1 1 5CF9971C
 P 960 1530
 F 0 "J14" H 960 1750 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 800 1320 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 960 1530 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 960 1530 50  0001 C CNN
 F 3 "~" H 960 1530 50  0001 C CNN
 	1    960  1530
 	-1   0    0    -1  
@@ -126,7 +126,7 @@ Wire Wire Line
 Wire Wire Line
 	1410 1630 1160 1630
 Wire Wire Line
-	2730 1990 2510 1990
+	2730 1990 2555 1990
 $Comp
 L Device:Q_NMOS_GSD Q5
 U 1 1 5CF9A4D9
@@ -213,7 +213,7 @@ U 1 1 5CF9A509
 P 4480 1550
 F 0 "J16" H 4480 1770 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 4320 1340 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 4480 1550 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 4480 1550 50  0001 C CNN
 F 3 "~" H 4480 1550 50  0001 C CNN
 	1    4480 1550
 	-1   0    0    -1  
@@ -239,7 +239,7 @@ Wire Wire Line
 Wire Wire Line
 	4930 1650 4680 1650
 Wire Wire Line
-	6250 2010 6030 2010
+	6250 2010 6105 2010
 $Comp
 L Device:Q_NMOS_GSD Q4
 U 1 1 5CF9F258
@@ -322,7 +322,7 @@ U 1 1 5CF9F288
 P 4420 3530
 F 0 "J15" H 4420 3750 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 4260 3320 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 4420 3530 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 4420 3530 50  0001 C CNN
 F 3 "~" H 4420 3530 50  0001 C CNN
 	1    4420 3530
 	-1   0    0    -1  
@@ -348,7 +348,7 @@ Wire Wire Line
 Wire Wire Line
 	4870 3630 4620 3630
 Wire Wire Line
-	6190 3990 5970 3990
+	6190 3990 6045 3990
 $Comp
 L Device:Q_NMOS_GSD Q7
 U 1 1 5CF9F2A3
@@ -435,7 +435,7 @@ U 1 1 5CF9F2D3
 P 7880 3490
 F 0 "J18" H 7880 3710 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 7720 3280 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 7880 3490 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 7880 3490 50  0001 C CNN
 F 3 "~" H 7880 3490 50  0001 C CNN
 	1    7880 3490
 	-1   0    0    -1  
@@ -461,7 +461,7 @@ Wire Wire Line
 Wire Wire Line
 	8330 3590 8080 3590
 Wire Wire Line
-	9650 3950 9430 3950
+	9650 3950 9505 3950
 $Comp
 L Device:Q_NMOS_GSD Q2
 U 1 1 5CF9F2EE
@@ -548,7 +548,7 @@ U 1 1 5CF9F31E
 P 920 5610
 F 0 "J13" H 920 5830 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 760 5400 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 920 5610 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 920 5610 50  0001 C CNN
 F 3 "~" H 920 5610 50  0001 C CNN
 	1    920  5610
 	-1   0    0    -1  
@@ -574,7 +574,7 @@ Wire Wire Line
 Wire Wire Line
 	1370 5710 1120 5710
 Wire Wire Line
-	2690 6070 2470 6070
+	2690 6070 2545 6070
 $Comp
 L Device:Q_NMOS_GSD Q6
 U 1 1 5CF9F339
@@ -661,7 +661,7 @@ U 1 1 5CF9F369
 P 4490 5620
 F 0 "J17" H 4490 5840 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 4330 5410 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 4490 5620 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 4490 5620 50  0001 C CNN
 F 3 "~" H 4490 5620 50  0001 C CNN
 	1    4490 5620
 	-1   0    0    -1  
@@ -687,7 +687,7 @@ Wire Wire Line
 Wire Wire Line
 	4940 5720 4690 5720
 Wire Wire Line
-	6260 6080 6040 6080
+	6260 6080 6115 6080
 Text HLabel 2730 1990 2    50   Input ~ 0
 STOR_0
 Text HLabel 6250 2010 2    50   Input ~ 0
@@ -786,7 +786,7 @@ U 1 1 5CFECEA3
 P 7910 1600
 F 0 "J19" H 7910 1820 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 7750 1390 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 7910 1600 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 7910 1600 50  0001 C CNN
 F 3 "~" H 7910 1600 50  0001 C CNN
 	1    7910 1600
 	-1   0    0    -1  
@@ -812,7 +812,7 @@ Wire Wire Line
 Wire Wire Line
 	8360 1700 8110 1700
 Wire Wire Line
-	9680 2060 9460 2060
+	9680 2060 9535 2060
 $Comp
 L Device:Q_NMOS_GSD Q1
 U 1 1 5CFECEBD
@@ -899,7 +899,7 @@ U 1 1 5CFECEED
 P 920 3530
 F 0 "J12" H 920 3750 50  0000 C CNN
 F 1 "MPT 0.5/3-2.54" H 760 3320 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 920 3530 50  0001 C CNN
+F 2 "pbo_footprint:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 920 3530 50  0001 C CNN
 F 3 "~" H 920 3530 50  0001 C CNN
 	1    920  3530
 	-1   0    0    -1  
@@ -923,7 +923,7 @@ Wire Wire Line
 Wire Wire Line
 	1370 3630 1120 3630
 Wire Wire Line
-	2690 3990 2470 3990
+	2690 3990 2545 3990
 Text HLabel 9680 2060 2    50   Input ~ 0
 STOR_2
 Text HLabel 2690 3990 2    50   Input ~ 0
@@ -934,7 +934,7 @@ U 1 1 5D0FD230
 P 2010 1490
 F 0 "K3" H 1760 1990 50  0000 L CNN
 F 1 "G5Q-1EU" H 1610 1890 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5Q-1" H 2460 1440 50  0001 L CNN
+F 2 "pbo_footprint:Relay_SPDT_Omron-G5Q-1" H 2460 1440 50  0001 L CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 2660 1340 50  0001 L CNN
 	1    2010 1490
 	-1   0    0    -1  
@@ -946,7 +946,7 @@ U 1 1 5D11EA7B
 P 5530 1510
 F 0 "K5" H 5280 2010 50  0000 L CNN
 F 1 "G5Q-1EU" H 5130 1910 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5Q-1" H 5980 1460 50  0001 L CNN
+F 2 "pbo_footprint:Relay_SPDT_Omron-G5Q-1" H 5980 1460 50  0001 L CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 6180 1360 50  0001 L CNN
 	1    5530 1510
 	-1   0    0    -1  
@@ -957,7 +957,7 @@ U 1 1 5D129C09
 P 8960 1560
 F 0 "K8" H 8710 2060 50  0000 L CNN
 F 1 "G5Q-1EU" H 8560 1960 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5Q-1" H 9410 1510 50  0001 L CNN
+F 2 "pbo_footprint:Relay_SPDT_Omron-G5Q-1" H 9410 1510 50  0001 L CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 9610 1410 50  0001 L CNN
 	1    8960 1560
 	-1   0    0    -1  
@@ -968,7 +968,7 @@ U 1 1 5D134CCB
 P 8930 3450
 F 0 "K7" H 8680 3950 50  0000 L CNN
 F 1 "G5Q-1EU" H 8530 3850 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5Q-1" H 9380 3400 50  0001 L CNN
+F 2 "pbo_footprint:Relay_SPDT_Omron-G5Q-1" H 9380 3400 50  0001 L CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 9580 3300 50  0001 L CNN
 	1    8930 3450
 	-1   0    0    -1  
@@ -979,7 +979,7 @@ U 1 1 5D13FE3D
 P 5470 3490
 F 0 "K4" H 5220 3990 50  0000 L CNN
 F 1 "G5Q-1EU" H 5070 3890 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5Q-1" H 5920 3440 50  0001 L CNN
+F 2 "pbo_footprint:Relay_SPDT_Omron-G5Q-1" H 5920 3440 50  0001 L CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 6120 3340 50  0001 L CNN
 	1    5470 3490
 	-1   0    0    -1  
@@ -990,7 +990,7 @@ U 1 1 5D14ADB5
 P 1970 3490
 F 0 "K1" H 1720 3990 50  0000 L CNN
 F 1 "G5Q-1EU" H 1570 3890 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5Q-1" H 2420 3440 50  0001 L CNN
+F 2 "pbo_footprint:Relay_SPDT_Omron-G5Q-1" H 2420 3440 50  0001 L CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 2620 3340 50  0001 L CNN
 	1    1970 3490
 	-1   0    0    -1  
@@ -1001,7 +1001,7 @@ U 1 1 5D1562F9
 P 1970 5570
 F 0 "K2" H 1720 6070 50  0000 L CNN
 F 1 "G5Q-1EU" H 1570 5970 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5Q-1" H 2420 5520 50  0001 L CNN
+F 2 "pbo_footprint:Relay_SPDT_Omron-G5Q-1" H 2420 5520 50  0001 L CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 2620 5420 50  0001 L CNN
 	1    1970 5570
 	-1   0    0    -1  
@@ -1020,7 +1020,7 @@ U 1 1 5D188DFF
 P 5540 5580
 F 0 "K6" H 5290 6080 50  0000 L CNN
 F 1 "G5Q-1EU" H 5140 5980 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5Q-1" H 5990 5530 50  0001 L CNN
+F 2 "pbo_footprint:Relay_SPDT_Omron-G5Q-1" H 5990 5530 50  0001 L CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 6190 5430 50  0001 L CNN
 	1    5540 5580
 	-1   0    0    -1  
@@ -1030,4 +1030,204 @@ Connection ~ 5670 3790
 Connection ~ 9130 3750
 Connection ~ 9160 1860
 Connection ~ 5730 1810
+$Comp
+L Device:R R62
+U 1 1 5DBC8B1A
+P 2555 2140
+F 0 "R62" H 2625 2186 50  0000 L CNN
+F 1 "10K" H 2625 2095 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2485 2140 50  0001 C CNN
+F 3 "~" H 2555 2140 50  0001 C CNN
+	1    2555 2140
+	1    0    0    -1  
+$EndComp
+Connection ~ 2555 1990
+Wire Wire Line
+	2555 1990 2510 1990
+$Comp
+L power:Earth #PWR0123
+U 1 1 5DBD3C77
+P 2555 2290
+F 0 "#PWR0123" H 2555 2040 50  0001 C CNN
+F 1 "Earth" H 2555 2140 50  0001 C CNN
+F 2 "" H 2555 2290 50  0001 C CNN
+F 3 "~" H 2555 2290 50  0001 C CNN
+	1    2555 2290
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R57
+U 1 1 5DBDEF01
+P 2545 4140
+F 0 "R57" H 2615 4186 50  0000 L CNN
+F 1 "10K" H 2615 4095 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2475 4140 50  0001 C CNN
+F 3 "~" H 2545 4140 50  0001 C CNN
+	1    2545 4140
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0119
+U 1 1 5DBDEF08
+P 2545 4290
+F 0 "#PWR0119" H 2545 4040 50  0001 C CNN
+F 1 "Earth" H 2545 4140 50  0001 C CNN
+F 2 "" H 2545 4290 50  0001 C CNN
+F 3 "~" H 2545 4290 50  0001 C CNN
+	1    2545 4290
+	1    0    0    -1  
+$EndComp
+Connection ~ 2545 3990
+Wire Wire Line
+	2545 3990 2470 3990
+$Comp
+L Device:R R58
+U 1 1 5DBE4D48
+P 2545 6220
+F 0 "R58" H 2615 6266 50  0000 L CNN
+F 1 "10K" H 2615 6175 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2475 6220 50  0001 C CNN
+F 3 "~" H 2545 6220 50  0001 C CNN
+	1    2545 6220
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0122
+U 1 1 5DBE4D4F
+P 2545 6370
+F 0 "#PWR0122" H 2545 6120 50  0001 C CNN
+F 1 "Earth" H 2545 6220 50  0001 C CNN
+F 2 "" H 2545 6370 50  0001 C CNN
+F 3 "~" H 2545 6370 50  0001 C CNN
+	1    2545 6370
+	1    0    0    -1  
+$EndComp
+Connection ~ 2545 6070
+Wire Wire Line
+	2545 6070 2470 6070
+$Comp
+L Device:R R65
+U 1 1 5DBEB02F
+P 6115 6230
+F 0 "R65" H 6185 6276 50  0000 L CNN
+F 1 "10K" H 6185 6185 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6045 6230 50  0001 C CNN
+F 3 "~" H 6115 6230 50  0001 C CNN
+	1    6115 6230
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0126
+U 1 1 5DBEB036
+P 6115 6380
+F 0 "#PWR0126" H 6115 6130 50  0001 C CNN
+F 1 "Earth" H 6115 6230 50  0001 C CNN
+F 2 "" H 6115 6380 50  0001 C CNN
+F 3 "~" H 6115 6380 50  0001 C CNN
+	1    6115 6380
+	1    0    0    -1  
+$EndComp
+Connection ~ 6115 6080
+Wire Wire Line
+	6115 6080 6040 6080
+$Comp
+L Device:R R63
+U 1 1 5DBF7609
+P 6045 4140
+F 0 "R63" H 6115 4186 50  0000 L CNN
+F 1 "10K" H 6115 4095 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5975 4140 50  0001 C CNN
+F 3 "~" H 6045 4140 50  0001 C CNN
+	1    6045 4140
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0124
+U 1 1 5DBF7610
+P 6045 4290
+F 0 "#PWR0124" H 6045 4040 50  0001 C CNN
+F 1 "Earth" H 6045 4140 50  0001 C CNN
+F 2 "" H 6045 4290 50  0001 C CNN
+F 3 "~" H 6045 4290 50  0001 C CNN
+	1    6045 4290
+	1    0    0    -1  
+$EndComp
+Connection ~ 6045 3990
+Wire Wire Line
+	6045 3990 5970 3990
+$Comp
+L Device:R R64
+U 1 1 5DBFD9F4
+P 6105 2160
+F 0 "R64" H 6175 2206 50  0000 L CNN
+F 1 "10K" H 6175 2115 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6035 2160 50  0001 C CNN
+F 3 "~" H 6105 2160 50  0001 C CNN
+	1    6105 2160
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0125
+U 1 1 5DBFD9FB
+P 6105 2310
+F 0 "#PWR0125" H 6105 2060 50  0001 C CNN
+F 1 "Earth" H 6105 2160 50  0001 C CNN
+F 2 "" H 6105 2310 50  0001 C CNN
+F 3 "~" H 6105 2310 50  0001 C CNN
+	1    6105 2310
+	1    0    0    -1  
+$EndComp
+Connection ~ 6105 2010
+Wire Wire Line
+	6105 2010 6030 2010
+$Comp
+L Device:R R67
+U 1 1 5DC03FE7
+P 9535 2210
+F 0 "R67" H 9605 2256 50  0000 L CNN
+F 1 "10K" H 9605 2165 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9465 2210 50  0001 C CNN
+F 3 "~" H 9535 2210 50  0001 C CNN
+	1    9535 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0128
+U 1 1 5DC03FEE
+P 9535 2360
+F 0 "#PWR0128" H 9535 2110 50  0001 C CNN
+F 1 "Earth" H 9535 2210 50  0001 C CNN
+F 2 "" H 9535 2360 50  0001 C CNN
+F 3 "~" H 9535 2360 50  0001 C CNN
+	1    9535 2360
+	1    0    0    -1  
+$EndComp
+Connection ~ 9535 2060
+Wire Wire Line
+	9535 2060 9460 2060
+$Comp
+L Device:R R66
+U 1 1 5DC0A863
+P 9505 4100
+F 0 "R66" H 9575 4146 50  0000 L CNN
+F 1 "10K" H 9575 4055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9435 4100 50  0001 C CNN
+F 3 "~" H 9505 4100 50  0001 C CNN
+	1    9505 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0127
+U 1 1 5DC0A86A
+P 9505 4250
+F 0 "#PWR0127" H 9505 4000 50  0001 C CNN
+F 1 "Earth" H 9505 4100 50  0001 C CNN
+F 2 "" H 9505 4250 50  0001 C CNN
+F 3 "~" H 9505 4250 50  0001 C CNN
+	1    9505 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 9505 3950
+Wire Wire Line
+	9505 3950 9430 3950
 $EndSCHEMATC

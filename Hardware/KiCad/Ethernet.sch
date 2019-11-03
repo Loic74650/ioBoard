@@ -6,9 +6,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2019-10-24"
+Rev "V1.1"
+Comp "Crozitech"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -20,7 +20,7 @@ U 1 1 5CF6B8D2
 P 1730 3790
 F 0 "J11" H 1730 4457 50  0000 C CNN
 F 1 "8P8C_LED_Shielded" H 1730 4366 50  0000 C CNN
-F 2 "my_footprint:RJ45_Stewart_SS_74301_001" V 1730 3815 50  0001 C CNN
+F 2 "pbo_footprint:RJ45_Stewart_SS_74301_001" V 1730 3815 50  0001 C CNN
 F 3 "~" V 1730 3815 50  0001 C CNN
 	1    1730 3790
 	1    0    0    -1  
@@ -343,7 +343,7 @@ P 5370 1660
 AR Path="/5D0897A7" Ref="R?"  Part="1" 
 AR Path="/5CF6B4B0/5D0897A7" Ref="R14"  Part="1" 
 F 0 "R14" H 5470 1600 50  0000 L CNN
-F 1 "100" H 5420 1680 50  0000 L CNN
+F 1 "10K" H 5420 1680 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5300 1660 50  0001 C CNN
 F 3 "~" H 5370 1660 50  0001 C CNN
 	1    5370 1660
@@ -652,19 +652,6 @@ F 3 "" H 9000 2440 50  0001 C CNN
 	1    9000 2440
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Crystal Y?
-U 1 1 5D120A55
-P 7865 3100
-AR Path="/5D120A55" Ref="Y?"  Part="1" 
-AR Path="/5CF6B4B0/5D120A55" Ref="Y2"  Part="1" 
-F 0 "Y2" V 7865 3220 50  0000 L CNN
-F 1 "25MHz" V 8065 3000 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 7865 3100 50  0001 C CNN
-F 3 "~" H 7865 3100 50  0001 C CNN
-	1    7865 3100
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	7650 2950 7650 3000
 Wire Wire Line
@@ -673,8 +660,6 @@ Wire Wire Line
 	7560 3200 7650 3200
 Wire Wire Line
 	7650 3200 7650 3250
-Wire Wire Line
-	7650 3250 7865 3250
 $Comp
 L Device:R R?
 U 1 1 5D120A62
@@ -937,12 +922,26 @@ $EndComp
 Connection ~ 3140 1790
 Wire Wire Line
 	3140 1790 3460 1790
-Connection ~ 7865 2950
+$Comp
+L Device:Crystal_GND2 Y2
+U 1 1 5DC2849F
+P 7755 3100
+F 0 "Y2" V 7750 3215 50  0000 L CNN
+F 1 "25MHz" V 7975 2960 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 7755 3100 50  0001 C CNN
+F 3 "~" H 7755 3100 50  0001 C CNN
+	1    7755 3100
+	0    -1   1    0   
+$EndComp
 Wire Wire Line
-	7865 2950 7650 2950
-Connection ~ 7865 3250
+	7650 3250 7755 3250
 Wire Wire Line
-	7865 2950 8190 2950
+	7650 2950 7755 2950
+NoConn ~ 7955 3100
+Connection ~ 7755 2950
 Wire Wire Line
-	7865 3250 8190 3250
+	7755 2950 8190 2950
+Connection ~ 7755 3250
+Wire Wire Line
+	7755 3250 8190 3250
 $EndSCHEMATC
